@@ -9,8 +9,10 @@ print(unicode_a)
 
 print('a\n\tb')
 
-|#strtings methods 
+#strtings methods 
 
 nothing = "".join(["hey","nomade","element","heaaer"])
 nothing += "::".join("homer")
-print(nothing)
+empty = "".join(['hey jessica','how you\'re  doing '])
+empty +="".join("hey jessica how you're doing ")
+print(empty)
