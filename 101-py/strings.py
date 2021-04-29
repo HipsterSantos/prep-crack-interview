@@ -6,3 +6,11 @@ print("\b3333 this a binary one")
 
 unicode_a = '\N{LATIN SMALL LETTER A}'
 print(unicode_a)
+
+print('a\n\tb')
+
+|#strtings methods 
+
+nothing = "".join(["hey","nomade","element","heaaer"])
+nothing += "::".join("homer")
+print(nothing)
