@@ -18,5 +18,5 @@ empty +="".join("hey jessica how you're doing ")
 print(empty)
 
 """time to split """
-nothing.split(',',2)
-print(nothing)
+splitted = nothing.split('::')
+print(splitted)
