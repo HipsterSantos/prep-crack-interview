@@ -21,5 +21,9 @@ print(empty)
 splitted = nothing.split('::')
 #quick test with splits 
 toSplit = 'this is a test'
-splitted = (toSplit.split(' '))+"-".join('this is a test')
-print(splitted)
+# splitted = (toSplit.split(' '))+"-".join('this is a test')
+# print(splitted) printing system whitespaces
+
+import string 
+print(string.whitespace)
+
