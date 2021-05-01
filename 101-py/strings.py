@@ -25,5 +25,5 @@ toSplit = 'this is a test'
 # print(splitted) printing system whitespaces
 
 import string 
-print(string.whitespace)
-
+help(string.whitespace)
+#stript function to remove elements can be used to remore  whitespace as well some other charactersself.
