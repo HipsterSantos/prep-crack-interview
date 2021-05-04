@@ -23,7 +23,11 @@ splitted = nothing.split('::')
 toSplit = 'this is a test'
 # splitted = (toSplit.split(' '))+"-".join('this is a test')
 # print(splitted) printing system whitespaces
-
 import string 
-help(string.whitespace)
+# help(string.whitespace)
 #stript function to remove elements can be used to remore  whitespace as well some other charactersself.
+
+
+x = "xxx.homeoffice.com".strip('xxx')
+x.find(x)
+
