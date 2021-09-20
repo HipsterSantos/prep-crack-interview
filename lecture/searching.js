@@ -36,3 +36,18 @@ function binarySearch(arr,n){
     }
     return false;               
 }
+
+// Sorting algorithms
+/**
+ * 
+ * Bubble sort
+ */
+let arr = [12,34,4,5]
+let [a,b] = arr;
+let [b,a] =  arr;
+function swap(arr,prev,next){
+
+}
+function bubbleSort(arr,n){
+
+}
