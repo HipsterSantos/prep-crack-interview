@@ -3,3 +3,8 @@ function LinkedListNode(data){
     this.next = null;  
 }
 
+function singleLinkedList(head){
+    this.heade = null;
+    this.size = 0;
+}
+
