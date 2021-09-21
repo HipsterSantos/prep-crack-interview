@@ -32,6 +32,15 @@ class BinaryTree:
         traverseInOrderHelper(node.left)
         print(node.data)
         traveseInOrderHelper(node.right)
+    def traversePostOrderHelper(self,node):
+        """left->right->root"""
+        traversePostOrderHelper(self._root)
+        def traversePostOrderHelper(node):
+            if node.left
+                traversePostOrderHelper(node.left)
+            if node.right 
+                traversePostOrderHelper(node.right)
+                
 
 class Node:
     def __init__(self,data):
