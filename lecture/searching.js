@@ -36,3 +36,19 @@ function binarySearch(arr,n){
     }
     return false;               
 }
+
+/**
+ *  
+ * bubble sort 
+ * time complexity: O(n^2)
+ * */ 
+
+const swap = (arr,index1,index2) =>{
+    let temp = arr[index1];
+    arr[index1] = arr[index2]
+    arr[index2] = temp;
+}
+
+function bubbleSort(arr){
+
+}
