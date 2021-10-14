@@ -18,3 +18,17 @@ s0 = "bedroom"
 s1 = "bathroom"
 Output
 False
+
+
+Use a hashmap to keep a count of letter frequency in s0. Next, iterate through s1 and reduce the frequency and remove elements when they hit 0 from the hashmap. In the end, check if the size of the hashmap is 0.
+
+Implementation
+STEP 1: Map characters and frequency in a hashmap for S0.
+STEP 2: Deduct frequencies and remove keys from hashmap based on S1.
+STEP 3: Check size of map.
+
+Time Complexity
+\mathcal{O}(n)O(n) It requires iterations of the given strings with \mathcal{O}(1)O(1) operations on the hashmap (unordered_map).
+
+Space Complexity
+\mathcal{O}(n)O(n) It requires one hashmap for keeping a track of all characters.
