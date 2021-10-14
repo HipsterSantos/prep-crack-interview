@@ -37,6 +37,7 @@ function binarySearch(arr,n){
     return false;               
 }
 
+<<<<<<< HEAD
 // Sorting algorithms
 /**
  * 
@@ -51,3 +52,20 @@ function swap(arr,prev,next){
 function bubbleSort(arr,n){
 
 }
+=======
+/**
+ *  
+ * bubble sort 
+ * time complexity: O(n^2)
+ * */ 
+
+const swap = (arr,index1,index2) =>{
+    let temp = arr[index1];
+    arr[index1] = arr[index2]
+    arr[index2] = temp;
+}
+
+function bubbleSort(arr){
+
+}
+>>>>>>> 5f11ec0d8a1e78a3f2f88748281a536ad6805253
