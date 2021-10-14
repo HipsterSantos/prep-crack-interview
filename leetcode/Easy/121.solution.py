@@ -16,3 +16,11 @@ class Solution:
                     if(a == len(prices)):
                         moving = False
                 return profit
+
+
+
+class JewelAndStone:
+    def solution(j):
+        s = "aAAbbbb"
+        for ind,val in enumerate(jsd)  :
+            for 
